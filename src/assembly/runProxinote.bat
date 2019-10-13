@@ -1,0 +1,1 @@
+java -cp bcprov-jdk15on-1.58.jar;proxinote-2.0.1-SNAPSHOT-fat.jar io.proximax.app.main.ProxiNote %1

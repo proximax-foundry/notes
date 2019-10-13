@@ -1,0 +1,441 @@
+.root 
+{
+    -fx-font: 12px Lato;
+}
+#shadow-pane
+{
+    -fx-background-color: transparent;    
+}
+#main-pane
+{
+    -fx-background-color: #193549;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0);    
+}
+#top-pane
+{
+    -fx-background-color: #326B91;
+}
+#error-title
+{
+    -fx-font:20px "Lato Black";    
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+}
+#error-msg
+{
+    -fx-font:15px "Lato Regular"; 
+    -fx-text-fill:white;    	    
+}
+#prxbx-btn
+{
+    -fx-background-color:#326B91;
+    -fx-background-radius:5px;
+    -fx-text-fill:white;
+    -fx-font:15px "Lato";
+    -fx-font-weight:bold;
+}
+#label20b
+{
+    -fx-font:20px "Lato Black";    
+    -fx-text-fill:white;    	
+    -fx-font-weight:bold;    
+}
+#label13b
+{
+    -fx-font:13px "Lato Black";    
+    -fx-text-fill:white;    	
+    -fx-font-weight:bold;    
+    
+}
+#label13
+{
+    -fx-font:13px "Lato Regular"; 
+    -fx-text-fill:white;    	    
+}
+#label15b
+{
+    -fx-font:15px "Lato Black";    
+    -fx-text-fill:white;    	
+    -fx-font-weight:bold;    
+    
+}
+#profile-fields
+{
+    -fx-background-color:#FFFFFF;
+    -fx-font:15px "Lato Regular";
+    -fx-text-fill: #193549;	
+    -fx-padding: 4px;
+}
+#pwr-lbl
+{
+    -fx-font:15px "Lato";    
+    -fx-text-fill:white;
+}
+#profile-header
+{
+    -fx-background-color: #326B91;
+}
+#profile-pane
+{
+    -fx-border-color: #326B91;
+}
+#app-logo1
+{
+    -fx-image: url("Dark/img/proxinotesw.png");    
+}
+#app-logo2
+{
+    -fx-image: url("Dark/img/proxinotesd.png");    
+}
+#app-icon1
+{
+    -fx-image: url("Dark/img/notesd.png");    
+}
+#app-icon2
+{
+    -fx-image: url("Dark/img/notesw.png");    
+}
+#app-header2
+{
+    -fx-image: url("Dark/img/notesd.png");    
+}
+#app-header1
+{
+    -fx-image: url("Dark/img/notesw.png");    
+}
+#proxinote-logo1
+{
+    -fx-image: url("Dark/img/proxinote.png");    
+}
+#proxinote-logo2
+{
+    -fx-image: url("Dark/img/proxinote.png");    
+}
+#close-img
+{
+    -fx-image: url("Dark/img/close.png");    
+}
+#min-img
+{
+    -fx-image: url("Dark/img/minimize.png");    
+}
+#max-img
+{
+    -fx-image: url("Dark/img/maximize.png");    
+}
+#search-img
+{
+    -fx-image: url("Dark/img/search.png");    
+}
+searchw-img
+{
+    -fx-image: url("Dark/img/search-w.png");    
+}
+#proximax-logo
+{
+    -fx-image: url("Dark/img/ProximaX-Logo.png")
+}
+#error-img
+{
+    -fx-image: url("Dark/img/error.png")
+}
+#nightmode-img
+{
+    -fx-image: url("Dark/img/nightmode.png")
+}
+#netcfg-img
+{
+    -fx-image: url("Dark/img/netcfg.png")
+}
+#add-img
+{
+    -fx-image: url("Dark/img/add.png")
+}
+#remove-img
+{
+    -fx-image: url("Dark/img/remove.png")
+}
+#folder-img
+{
+    -fx-image: url("Dark/img/folder.png")
+}
+
+#nav-btn
+{
+    -fx-text-fill:#193549;
+    -fx-font:15px "Lato Black";    
+}
+#nav-btn:focused
+{
+    -fx-text-fill:white;
+    -fx-font:15px "Lato Black";
+    -fx-font-weight:bold;    
+    -fx-background-color: #326B91;
+}
+#nav-togbtn1
+{
+    -fx-text-fill:white;
+    -fx-font:15px "Lato Black";    
+    -fx-background-color: transparent;
+}
+#nav-togbtn1:focused
+{
+    -fx-text-fill:white;
+    -fx-font:15px "Lato Black"; 
+    -fx-background-color: transparent;
+}
+#nav-togbtn 
+{
+    -jfx-toggle-color: #D6E1E9;
+    -jfx-untoggle-color: #FAFAFA;
+    -jfx-toggle-line-color: #326B91;
+    -jfx-untoggle-line-color: #999999;
+    -jfx-size: 5.0;
+    -jfx-disable-visual-focus: false;
+}
+#header
+{
+    -fx-background-color: #193549;
+}
+#node-combo
+{
+    -fx-background-color:  #D6E1E9;
+}
+#search-pane
+{	
+    -fx-padding: 4px;
+    -fx-border-color: #326B91;
+    -fx-border-radius: 5;
+}
+#search-field
+{
+    -fx-font:16px "Lato Regular";
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: white;
+    -jfx-focus-color: #193549;
+    -jfx-unfocus-color: #193549;
+}
+#upload-progress .bar
+{    
+    -fx-background-color: #326B91;	
+}
+.table-view 
+{    
+    -fx-font:15px "Lato";
+    -fx-text-fill: white;
+    -fx-background-color: transparent;    
+    -fx-table-cell-border-color: transparent;
+}
+.table-view .table-row-cell 
+{    
+    -fx-font:16px "Lato Regular";	
+    -fx-text-fill: white;    
+    -fx-border-width: 0 0 1 0; 
+    -fx-border-color: #326B91;
+    -fx-background-color: transparent;
+    -fx-cell-size: 35px;
+}
+.table-view .table-row-cell:selected
+{
+    -fx-text-fill: white;
+    -fx-background-color: #326B91;	
+    -fx-table-cell-border-color: transparent;
+}
+.table-view .column-header-background
+{
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+}
+.table-view .table-row-cell:empty 
+{
+    -fx-background-color: #193549;
+    -fx-border-width: 0 0 0 0;
+}
+.table-view .text-wrap-desc
+{
+    -fx-fill: white;
+}
+.table-view .text-wrap-date
+{
+    -fx-fill: #bcbec0;
+}
+.table-view .table-row-cell:focused:filled:selected .text-wrap-desc
+{
+    -fx-fill: white ;
+}
+.table-view .table-row-cell:focused:filled:selected .text-wrap-date
+{
+    -fx-fill: white;
+}
+.status-bar 
+{
+    -fx-padding: 4px;
+    -fx-pref-height: 40px;
+    -fx-background-color: #193549;
+    -fx-body-color:#D6E1E9;
+    -fx-background-insets: 0, 1;
+}
+.status-bar > .center-items,
+.status-bar > .left-items,
+.status-bar > .right-items 
+{
+    -fx-alignment: center; 
+}
+.status-label 
+{
+    -fx-font:15px "Lato";
+    -fx-text-fill: white;
+}
+.status-combox 
+{
+    -fx-font:15px "Lato";
+    -jfx-focus-color: #193549;
+    -jfx-unfocus-color: #193549;	
+}
+.status-combox > .cell
+{
+    -fx-font:15px "Lato";
+    -fx-text-fill: white;	
+}
+.status-combox > .list-view > .list-cell
+{
+    -fx-font:15px "Lato";
+}
+.status-green 
+{
+    -fx-graphic: url("Dark/img/green.png");
+}
+.status-red 
+{
+    -fx-graphic: url("Dark/img/red.png");
+}
+
+.tool-bar 
+{
+    -fx-background-color: #193549;
+}
+.button.pressed 
+{ 
+    -fx-background-color: #234b66; 
+}
+.button, .toggle-button 
+{
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: #326B91;
+}
+.toggle-button:selected {    
+    -fx-background-color: #234b66;
+}
+.button.add { -fx-background-image: url("Dark/img/add.png"); -fx-background-size:20px; }
+.button.save { -fx-background-image: url("Dark/img/save.png"); -fx-background-size:20px; }
+.button.exportpdf { -fx-background-image: url("Dark/img/exportpdf.png"); -fx-background-size:20px; }
+.button.exportword { -fx-background-image: url("Dark/img/exportword.png"); -fx-background-size:20px; }
+.button.new { -fx-background-image: url("Dark/img/new.png"); -fx-background-size:20px; }
+.button.undo { -fx-background-image: url("Dark/img/undo.png"); -fx-background-size:20px; }
+.button.redo { -fx-background-image: url("Dark/img/redo.png"); -fx-background-size:20px; }
+.button.cut { -fx-background-image: url("Dark/img/cut.png"); -fx-background-size:20px; }
+.button.copy { -fx-background-image: url("Dark/img/copy.png"); -fx-background-size:20px; }
+.button.paste { -fx-background-image: url("Dark/img/paste.png"); -fx-background-size:20px; }
+.button.bold { -fx-background-image: url("Dark/img/bold.png"); -fx-background-size:20px; }
+.button.italic { -fx-background-image: url("Dark/img/italic.png"); -fx-background-size:20px; }
+.button.underline { -fx-background-image: url("Dark/img/underline.png"); -fx-background-size:20px; }
+.button.strikethrough { -fx-background-image: url("Dark/img/strikethrough.png"); -fx-background-size:20px; }
+.button.insertimage { -fx-background-image: url("Dark/img/insertimage.png"); -fx-background-size:20px; }
+.button.bgcolor { -fx-background-image: url("Dark/img/bgcolor.png"); -fx-background-color: transparent; -fx-background-size:20px; }
+.button.textcolor { -fx-background-image: url("Dark/img/textcolor.png"); -fx-background-color: transparent; -fx-background-size:20px; }
+.toggle-button.wrap { -fx-background-image: url("Dark/img/no-wrap.png"); -fx-background-size:20px; }
+.toggle-button.wrap:selected { -fx-background-image: url("Dark/img/wrap.png"); -fx-background-size:20px; }
+.toggle-button.align-left { -fx-background-image: url("Dark/img/align-left.png"); -fx-background-size:20px; }
+.toggle-button.align-center { -fx-background-image: url("Dark/img/align-center.png"); -fx-background-size:20px; }
+.toggle-button.align-right { -fx-background-image: url("Dark/img/align-right.png"); -fx-background-size:20px; }
+.toggle-button.align-justify { -fx-background-image: url("Dark/img/align-justify.png"); -fx-background-size:20px; }
+
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+    /* -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; /* 5 2 0 10 */
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; /* overridden as 5 2 0 0 */
+}
+.tab-pane .tab-content-area {
+    -fx-padding: 0.0em 1.0em 0.0em 0.0em ;
+}
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane {
+    -fx-tab-min-width:100px;
+    -fx-tab-max-width:100px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #193549;
+
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #326B91;
+
+}
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+}
+.font-combox 
+{
+    -fx-font:15px "Lato";
+    -jfx-focus-color: #193549;
+    -jfx-unfocus-color: #193549;
+    -fx-border-color: #326B91;
+}
+.font-combox > .cell
+{
+    -fx-font:15px "Lato";
+    -fx-text-fill: white;	
+}
+.font-combox > .list-view > .list-cell
+{
+    -fx-font:15px "Lato";
+}
+.folder-combox 
+{
+    -fx-font:15px "Lato";
+    -jfx-focus-color: #193549;
+    -jfx-unfocus-color: #193549;
+}
+.folder-combox > .cell
+{
+    -fx-font:15px "Lato";    
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 0;
+}
+.folder-combox > .list-view > .list-cell
+{
+    -fx-font:15px "Lato";
+}
+.window-titlebar {
+    -fx-glass-color: #326B91;
+    -fx-alignment: center;
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-glass-color, 30%), -fx-glass-color);
+    -fx-border-color: derive(-fx-glass-color, -60%);
+    -fx-border-width: 2;
+    -fx-background-insets: 1;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-stroke: rgba(255,255,255,50);
+    -fx-fill: rgba(255,255,255,50);
+}
