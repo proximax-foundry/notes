@@ -132,7 +132,7 @@ public class ProxinoteController extends AbstractController {
     //Local account
     private LocalAccount localAccount = null;
 
-    private int newNoteIdx = 0;
+    private int newNoteIdx = 1;
 
     //bind status text property
     private final StringProperty statusProperty = new SimpleStringProperty();
@@ -639,11 +639,12 @@ public class ProxinoteController extends AbstractController {
 
     private int getTabIndex() {
         Iterator<Tab> iter = tabPane.getTabs().iterator();
-        newNoteIdx++;
+        //newNoteIdx++;
         for (Iterator<Tab> i = iter; iter.hasNext();) {
             TabArea tabArea = (TabArea) i.next();
-            String txt = tabArea.getText();
-            if (txt.equals("New Note " + newNoteIdx)) {
+            String str = "New Note " + newNoteIdx;
+            String txt = tabArea.getTitle();
+            if (str.equals(txt)) {
                 newNoteIdx++;
             }
         }

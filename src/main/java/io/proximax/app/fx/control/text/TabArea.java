@@ -340,7 +340,7 @@ public class TabArea extends Tab implements EventHandler, IRichText {
     }
 
     public boolean isEmpty() {
-        return textArea.getTextArea().getText().isEmpty() && getText().contains("New Note");
+        return textArea.getTextArea().getText().isEmpty() && getTitle() != null && getTitle().contains("New Note");
     }
 
     @Override
@@ -394,7 +394,7 @@ public class TabArea extends Tab implements EventHandler, IRichText {
     public void exportPDF(String path) {
         textArea.exportPDF(path);
     }
-    
+
     @Override
     public void exportWord(String path) {
         textArea.exportWord(path);
