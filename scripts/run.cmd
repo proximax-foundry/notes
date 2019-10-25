@@ -1,1 +1,1 @@
-java -Xmx2G -Djava.net.preferIPv4Stack=true -jar notes-0.5.1.jar
+java -Xmx2G -Djava.net.preferIPv4Stack=true -jar notes-0.6.0.jar
